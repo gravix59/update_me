@@ -1,6 +1,6 @@
-# update_me #
+# update_me.sh #
 
-## A script to update debian-based Linux distros that logs the output ##
+## A bash script to update debian-based Linux distros that logs the output ##
 
 This script uses sudo apt-get update and sudo apt-get upgrade to update a debian based Linux distro while writing a log of the output from the commands.
 
