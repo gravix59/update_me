@@ -24,7 +24,7 @@ date |& tee -a ~/logs/update/upgrade"$TODAY".txt
 # Upgrade and log ouput (with any errors).
 sudo apt-get upgrade -y |& tee -a ~/logs/update/upgrade"$TODAY".txt
 
-echo "Finished Update/Upgrade"
+echo "Finished Update/Upgrade" |& tee -a ~/logs/update/upgrade"$TODAY".txt
 
 # Display a blank line so that the next ouput stands out
 echo " "
